@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ID Verification</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>ID Verification</h1>
+    <p>Please verify your identity by uploading a valid ID.</p>
+    <a href="id-upload.html" class="btn">Upload ID</a>
+    <br><br>
+    <input type="text" id="barcodeInput" placeholder="Scan Barcode">
+    <button onclick="verifyID()">Verify ID</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
